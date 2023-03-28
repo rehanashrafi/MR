@@ -516,7 +516,12 @@ body {
     transition: 0.9s;
     background-color: #18d26e;
   }
-  
+  .icon-box{
+    filter: grayscale();
+  }
+  .icon-box:hover{
+    filter:none;
+  }
   /*--------------------------------------------------------------
   # Interests
   --------------------------------------------------------------*/
